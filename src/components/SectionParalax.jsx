@@ -41,7 +41,7 @@ const SectionParalax = () => {
       <div
         style={{
           width: "100%",
-          background: "url(../public/contact.jpg)",
+          background: "url(./assets/contact.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
@@ -64,7 +64,7 @@ const SectionParalax = () => {
       <div
         style={{
           width: "100%",
-          background: "url(../public/stol.jpg)",
+          background: "url(./assets/stol.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
