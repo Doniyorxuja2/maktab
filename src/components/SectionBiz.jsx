@@ -1,4 +1,5 @@
 import React from "react";
+import Bg from "../assets/main-bg.jpg";
 
 const SectionBiz = () => {
   return (
@@ -19,7 +20,7 @@ const SectionBiz = () => {
 
         <img
           className="w-[400px] h-[300px]"
-          src="../public/main-bg.jpg"
+          src={Bg}
           alt=""
           width={410}
           height={310}

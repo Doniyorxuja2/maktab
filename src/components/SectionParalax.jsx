@@ -1,6 +1,8 @@
 // import React, { useEffect } from "react";
 import { FaKey, FaUser, FaPenFancy } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
+import Stol from "../assets/stol.jpg";
+import Contact from "../assets/contact.jpg";
 
 // import { useState } from "react";
 // import { Api } from "../Apikey";
@@ -41,7 +43,7 @@ const SectionParalax = () => {
       <div
         style={{
           width: "100%",
-          background: "url(./assets/contact.jpg)",
+          backgroundImage: `url(${Contact})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
@@ -64,7 +66,7 @@ const SectionParalax = () => {
       <div
         style={{
           width: "100%",
-          background: "url(./assets/stol.jpg)",
+          backgroundImage: `url(${Stol})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
