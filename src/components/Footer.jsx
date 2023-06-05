@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="mt-[40px]">
       <div className="bg-[#000] py-6">
-        <div className="cantainer flex justify-between items-start gap-5">
+        <div className="cantainer flex flex-wrap justify-between items-start gap-5">
           <div className="flex flex-col text-white w-[200px] ">
             <h1 className="text-white text-[18px] mb-[25px]">MAKTAB HAQIDA</h1>
             <div className="relative">
